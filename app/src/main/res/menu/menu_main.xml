@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/item_Ajouter" android:title="Ajouter Livre"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:visible="true"
+        android:icon="@drawable/ic_add_book" />
+
+    <item android:id="@+id/item_Rechercher" android:title="Rechercher Livre"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/ic_add_search" />
+    <item
+        android:title="Liste Livres"
+        android:orderInCategory="101"
+        android:id="@+id/item_Liste" />
+</menu>
